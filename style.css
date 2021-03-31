@@ -1,0 +1,122 @@
+body {
+	text-align: center;
+
+}
+
+
+.text {
+	color: aliceblue;
+	font-family: 'Staatliches', cursive;
+
+}
+
+
+.container-fluid {
+	background-color: black;
+	text-align: center;
+
+}
+
+#myNavbar {
+	position: sticky;
+	top: 0;
+	z-index: 99999;
+}
+
+#title {
+	font-size: 50px;
+}
+
+.section {
+	margin-bottom: 1100px;
+	margin-top: 100px;
+
+}
+
+
+
+.line {
+	height: 6px;
+	width: 100%;
+	background-color: white;
+
+}
+
+
+
+#mycarousel {
+	background-color: #68786b;
+	padding-top: 100px
+}
+
+
+.carousel-inner h2 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: white;
+	font-size: 20px;
+}
+
+#mycarousel1 {
+	background-color: gray;
+	padding-top: 100px
+}
+
+#menu {
+
+	list-style: none;
+	font-family: cursive;
+	top: 0px;
+	margin-top: 0px;
+	width: 100%;
+	background-color: black;
+    cursor: pointer;
+	color: black;
+	position: fixed;
+	z-index: 10;
+
+}
+
+
+
+.menu a {
+
+
+	font-size: 20px;
+}
+
+
+
+
+
+
+#heading_social
+{
+	padding-bottom: 40px;
+}
+
+.news_a {
+	font-size: 20px;
+	font-weight: bolder;
+	color: aliceblue;
+	background-color: gray;
+}
+
+.news_a:hover {
+	text-decoration: none;
+	color: aliceblue;
+	background-color: dodgerblue;
+}
+
+#basic {
+	margin-top: 0px !important;
+}
+
+#welcome {
+	margin-bottom: 20px !important;
+}
+
+#myCanvas {
+	border-style: ridge;
+	border-width: 15px;
+}

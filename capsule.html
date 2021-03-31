@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SpaceX's Dragon</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<nav class="navbar-inverse my_nav_bar">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavBar">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Space X's Dragon</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav">
+       <li class="links"><a href="#" onclick="main()">
+               Welcome
+           </a></li>
+       <li class="links"><a href="#" onclick="main()">
+               Basic Description
+           </a></li>
+       <li class="links"><a href="#" onclick="overview()">
+               Overview
+           </a></li>
+       <li class="links"><a href="#" onclick="capsule()">
+               Capsule
+           </a></li>
+       <li class="links"><a href="#" onclick="videos()">
+               Videos
+           </a></li>
+       <li class="links"><a href="#" onclick="engines()">
+               Engines
+           </a></li>
+       <li class="links"><a href="#" onclick="news()">
+               News
+           </a></li>
+       <li class="links"><a href="#" onclick="images1()">
+               Images
+           </a></li>
+       <li class="links"><a href="#" onclick="websites()">
+               Websites
+           </a></li>
+       <li class="links"><a href="#" onclick="related()">
+               Related Topics
+           </a></li>
+       <li class="links"><a href="#" onclick="more()">
+               More Projects
+           </a></li>
+       <li class="links"><a href="#" onclick="social()">
+               Social Links
+           </a></li>
+		<li class="links"><a href="#" onclick="game()">
+				A Game! (For Computers Only)
+			</a></li>
+   </ul>
+
+		</div>
+	</nav>
+    <div class="container-fluid">
+        <img class="img-responsive" src="1SX.png" style="width: 100%;">
+        <section id="capsule" class="section">
+			<div class="line"></div>
+			<h2 class="text">Capsule</h2>
+
+
+			<div id="mycarousel" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+
+					<div class="item active">
+						<center>
+							<h1 class="text">Overview of Capsule</h1>
+							<div class="carousel-content">
+								<h2>The Dragon capsule, also known as the pressurized section, allows for the transport of people as well as environmentally sensitive cargo. Dragon is equipped with Draco thrusters that allow Dragon to maneuver while on orbit and 8 SuperDracos that power the spacecraft’s launch escape system.</h2>
+
+
+							</div>
+						</center>
+					</div>
+
+					<div class="item">
+						<center>
+							<h1 class="text">Launch Abort System</h1>
+							<div class="carousel-content">
+								<h2>The launch abort system is a crew safety system built into the Dragon spacecraft, used to quickly separate Dragon from Falcon 9 in the unlikely event of an emergency. In the unlikely event of an emergency, Dragon’s launch abort system can quickly separate the spacecraft from Falcon 9. Using its SuperDraco engines, Dragon will propel itself away from the launch vehicle.</h2>
+
+								<h3>NUMBER OF ENGINES: 8</h3>
+								<h3>ESCAPE THRUST: 71 kN / 16,000 lbf</h3>
+							</div>
+						</center>
+					</div>
+
+					<div class="item">
+						<center>
+							<h1 class="text">Attitude Control</h1>
+
+							<div class="carousel-content">
+
+								<h2>The Dragon spacecraft is equipped with 16 Draco thrusters used to orient the spacecraft during the mission, including apogee/perigee maneuvers, orbit adjustment and attitude control. Each Draco thruster is capable of generating 90 pounds of force in the vacuum of space.</h2>
+
+								<h3>NUMBER OF ENGINES: 16</h3>
+								<h3>THRUST IN VACUUM: 400N / 90 lb</h3>
+							</div>
+						</center>
+					</div>
+				</div>
+				<a class="left carousel-control" href="#mycarousel" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left"></span>
+				</a>
+
+				<a class="right carousel-control" href="#mycarousel" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right"></span>
+				</a>
+
+
+			</div>
+
+
+
+
+
+		</section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
